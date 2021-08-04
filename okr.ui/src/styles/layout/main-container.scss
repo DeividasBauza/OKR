@@ -1,0 +1,12 @@
+.main-container {
+    transition: .5s;
+    margin-left: auto;
+    width: calc(100% - 4rem);
+    height: calc(100vh - 4rem);
+    overflow-y: scroll;
+
+    &.active {
+        transition: .5s;
+        width: calc(100% - 17rem);
+    }
+}

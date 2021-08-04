@@ -1,0 +1,40 @@
+.active-user-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 30px;
+
+  &__switch-and-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &.toggle {
+      margin-left: 80px;
+    }
+    &.switch {
+      margin-top:10px;
+      margin-left: 130px;
+    }
+  }
+
+  &__user-details {
+    display: flex;
+  }
+}
+.star-icon-favorite {
+  color: rgb(255, 166, 0);
+  font-size: x-large;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 9px;
+  margin-left: 3px;
+}
+.star-icon-not-favorite {
+  color: rgb(75, 78, 80);
+  font-size: x-large;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 9px;
+  margin-left: 3px;
+}

@@ -1,0 +1,25 @@
+.progress-bar {
+    padding-top: 20px;
+    position: relative;
+
+    &__block {
+        padding: 20px 0px 20px 0px;
+    }
+    
+    &__tooltip {
+        position: relative!important;
+        top: -25px!important;
+        font-size: 15px!important;
+        color: rgb(220, 0, 77)!important;
+        background-color: rgba(255, 105, 135, 0.3)!important;
+    }
+         
+    &__tooltip-arrow {
+        color: rgba(255, 105, 135, 0.3)!important;
+    }
+
+    &__slide {
+        height: 0.5rem!important;
+        border-radius: 0.5rem;
+    }
+}

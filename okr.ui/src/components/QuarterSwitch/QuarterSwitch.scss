@@ -1,0 +1,19 @@
+.quarter-switch{
+  display:flex;
+  align-items: center;
+  color: #686868;
+  
+  &__year-quarter{
+    margin: 0 3px;
+    margin-top: -2px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #686868;
+    }
+  
+  &__button{
+    font-size: 18px;
+    padding: 0!important;
+  }
+}

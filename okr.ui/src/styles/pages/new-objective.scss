@@ -1,0 +1,63 @@
+.new-objective {
+    text-align: left;
+    width: 25rem;
+    
+    &__heading {
+
+    }
+    
+    &__form {
+        max-height: 35rem;
+        height: 100%;
+        padding: 1rem 1.5rem 0 1.5rem;
+    }
+
+    &__error {
+        align-items: center;
+        justify-content: center;
+        display: none;
+        
+        &.active {
+            display: flex;
+            height: 4rem;
+            width: 100%;
+            margin-bottom: 1rem;
+            color: #FFF;
+            background: #d32f2f;
+            border-radius: 0.3rem;
+        }
+    }
+
+    &__objective-cont {
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+     &__explanation {
+     }
+
+    &__dropdown {
+        margin-top: 1rem;
+    }
+
+    &__check-in {
+        margin-bottom: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    &__date-inputs {
+        margin: 1rem 0 .3rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__date-input {
+        width: 45%;
+    }
+}

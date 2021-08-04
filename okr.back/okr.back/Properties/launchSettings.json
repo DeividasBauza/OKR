@@ -1,0 +1,31 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:27788",
+      "sslPort": 44341
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://okrkeys.vault.azure.net/",
+        "AZURE_USERNAME": "karolistrinkunas8@gmail.com"
+      }
+    },
+    "okr.back": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://okrkeys.vault.azure.net/",
+        "AZURE_USERNAME": "karolistrinkunas8@gmail.com"
+      }
+    }
+  }
+}

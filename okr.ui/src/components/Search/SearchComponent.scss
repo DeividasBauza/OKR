@@ -1,0 +1,41 @@
+.autocomplete {
+  width: 100%;
+  position:relative;
+  border-radius: 0.4rem;
+
+  &__items {
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    position:absolute;
+    z-index:1;
+  }
+
+  &__search-field{
+    width: 100%;
+    background: #FFF;
+    border-radius: 0.4rem;
+    color: rgba(151, 151, 151, 1);
+    font-size: 16px;
+  }
+
+  &__item {
+    text-align: left;
+    display: flex;
+    height: 48px;
+    background-color: white;
+    padding: 0.25rem 0.25rem 0rem 0.75rem;
+
+    &__name {
+      margin: auto 0px;
+    }
+
+    &:hover {
+      background-color: rgb(193, 209, 224);
+      cursor: pointer;
+    }
+  }
+}
