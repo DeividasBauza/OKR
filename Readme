@@ -1,0 +1,2 @@
+Front end starts with command 'npm start' in okr.ui package.
+Back end server starts with 'dotnet run --project okr.back' in okr.back package.
